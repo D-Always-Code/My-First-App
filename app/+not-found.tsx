@@ -7,7 +7,7 @@ export default function NotFound() {
       <Stack.Screen options={{title : "Oops Not Found!!"}} />
       <View style = {styles.container}>
         <Text style = {styles.text}> Oops Halaman Tidak Ditemukan!!</Text>
-        <Link href="/" style={styles.button}> Pergi ke Halaman Rumah </Link>
+        <Link href="../(tabs)" style={styles.button}> Pergi ke Halaman Rumah </Link>
       </View>
     </>
   );
